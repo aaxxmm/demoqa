@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93622fc-46d6-4f69-b37e-c07cf4ac160e" name="Changes" comment="two">
+    <list default="true" id="c93622fc-46d6-4f69-b37e-c07cf4ac160e" name="Changes" comment="tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/components.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/demoqa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/elements_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elements_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_check_icon_demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_check_icon_demoqa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_go_to_page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_go_to_page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_check_icon_demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_icon_exist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <recent name="C:\Users\HONOR\PycharmProjects\demoqa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_check_icon_demoqa.py">
+  <component name="RunManager">
     <configuration name="demoqa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
@@ -112,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_check_icon_demoqa.test_check_icon" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_icon_exist.test_check_icon" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,11 +121,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_check_icon_demoqa.test_check_icon&quot;" />
+      <option name="_new_target" value="&quot;tests.test_icon_exist.test_check_icon&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_check_icon_demoqa.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_icon_exist.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,14 +136,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_check_icon_demoqa.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_icon_exist.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_check_icon_demoqa.py" />
-        <item itemvalue="Python tests.Python tests for test_check_icon_demoqa.test_check_icon" />
+        <item itemvalue="Python tests.Python tests in test_icon_exist.py" />
+        <item itemvalue="Python tests.Python tests for tests.test_icon_exist.test_check_icon" />
         <item itemvalue="Python.demoqa" />
       </list>
     </recent_temporary>
@@ -198,12 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724873467136</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tree">
+      <option name="closed" value="true" />
+      <created>1724958802836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724958802836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="two" />
-    <option name="LAST_COMMIT_MESSAGE" value="two" />
+    <MESSAGE value="tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree" />
   </component>
 </project>

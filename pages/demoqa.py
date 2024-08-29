@@ -9,10 +9,5 @@ class DemoQa(BasePage): #наследуем от BasePage
 
         self.icon = WebElement(driver, '#app > header > a')
         self.btn_elements = WebElement(driver, "#app > div > div > div.home-body > div > div:nth-child(1)")
-    def exist_icon(self): # метод
-        try:    #конструкция
-            self.icon.find_element()
-        except NoSuchElementException:   #исключение
-            return False
-        return True
+
 

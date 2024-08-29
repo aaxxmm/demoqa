@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 class WebElement:
    def __init__(self,driver, locator=''):
         self.locator = locator
@@ -10,3 +11,10 @@ class WebElement:
 
    def find_element(self): #метод find_element
        return self.driver.find_element(By.CSS_SELECTOR, self.locator)
+
+   def exist(self): # метод
+        try:    #конструкция
+            self.find_element()
+        except NoSuchElementException:   #исключение
+            return False
+        return True

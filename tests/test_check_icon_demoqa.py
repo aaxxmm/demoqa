@@ -1,4 +1,6 @@
 from pages.demoqa import DemoQa
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
 def test_check_icon(browser): #browser-аргумент
 
     demo_qa_page = DemoQa(browser) #

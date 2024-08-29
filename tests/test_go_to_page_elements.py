@@ -1,5 +1,8 @@
 from pages.demoqa import DemoQa
 from pages.elements_page import ElementsPage
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+
 def test_go_to_page_elements(browser): #browser-аргумент
     demo_qa_page = DemoQa(browser) #
     elements_page = ElementsPage(browser) #объект

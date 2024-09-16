@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93622fc-46d6-4f69-b37e-c07cf4ac160e" name="Changes" comment="tree">
-      <change afterPath="$PROJECT_DIR$/tests/ tests_hw/test_check_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_visible.py" afterDir="false" />
+    <list default="true" id="c93622fc-46d6-4f69-b37e-c07cf4ac160e" name="Changes" comment="five">
+      <change afterPath="$PROJECT_DIR$/pages/accordion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/form_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/text_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ tests_hw/test_page_dialogs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ tests_hw/test_visible.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_clear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_login_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_navigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_seo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_size.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/demoqa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/elements_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elements_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ tests_hw/test_check_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ tests_hw/test_check_text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,13 +232,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724960308212</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="five">
+      <option name="closed" value="true" />
+      <created>1725569405234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725569405234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="two" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="five" />
+    <option name="LAST_COMMIT_MESSAGE" value="five" />
   </component>
 </project>

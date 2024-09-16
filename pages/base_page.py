@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 class BasePage:
    def __init__(self, driver, base_url): #после self принимающиеся аргументы
        self.driver = driver
-       self.base_url = base_url
+       self.base_url = base_url # 'https://demoqa.com/'
 
    def visit(self):  #метод visit возвращает переход на страницу get
        return self.driver.get(self.base_url)
@@ -30,13 +30,10 @@ class BasePage:
    def get_title(self):
        self.driver.title()
 
-   def test_check_footer_text(self):
-       self.driver.get('https://demoqa.com')
-       footer_text = self.find_element.footer.get_text()
-       assert footer_text == '© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'
+   def alert(self):
+        try:
+            return self.driver.switch_to.alert
+        except Exception as ex:
+            logging.log(1, ex)
+            return False
 
-   def test_check_center_text(self):
-       self.driver.get('https://demoqa.com')
-       self.components.button.click()
-       center_text = self.components.center_text.get_text()
-       assert center_text == 'Please select an item from left to start practice.'

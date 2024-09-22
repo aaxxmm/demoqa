@@ -9,7 +9,7 @@ class Accordion(BasePage):  # наследуем от BasePage
         super().__init__(driver, self.base_url)
 
         self.lorem_field = WebElement(driver, "#section1Content > p")
-        self.lorem_field = WebElement(driver, "#section1Heading")
-        self.lorem_field = WebElement(driver, "#section2Content > p:nth-child(1)")
-        self.lorem_field = WebElement(driver, "#section2Content > p:nth-child(2)")
-        self.lorem_field = WebElement(driver, "#section3Content > p")
+        self.lorem_btn = WebElement(driver, "#section1Heading")
+        self.lorem_btn_1 = WebElement(driver, "#section2Content > p:nth-child(1)")
+        self.lorem_btn_2 = WebElement(driver, "#section2Content > p:nth-child(2)")
+        self.lorem_btn_self = WebElement(driver, "#section3Content > p")

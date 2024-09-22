@@ -28,7 +28,7 @@ class BasePage:
    def refresh(self):
        self.driver.refresh()
    def get_title(self):
-       self.driver.title()
+       return self.driver.title
 
    def alert(self):
         try:

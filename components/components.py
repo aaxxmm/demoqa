@@ -15,10 +15,10 @@ class WebElement:
        self.driver.execute_script("arguments[0].click();", self.find_element())  #позвл добавлять код для клиент браузера
 
    def find_element(self): #метод find_element
-       return self.driver.find_element(By.CSS_SELECTOR, self.locator)
+       return self.driver.find_element(self.get_by_type, self.locator)
 
    def find_elements(self):  # метод find_elements
-       return self.driver.find_elements(By.CSS_SELECTOR, self.locator)
+       return self.driver.find_elements(self.get_by_type, self.locator)
 
    def exist(self): # метод
         try:    #конструкция
@@ -44,6 +44,39 @@ class WebElement:
    def clear(self): # метод
         self.find_element().send_keys(Keys.CONTROL + 'a')
         self.find_element().send_keys(Keys.DELETE)
+
+   def get_dom_attribute(self, name: str): #имя аттрибута строка
+       value = self.find_element().get_dom_attribute(name)
+
+       if value is None:
+           return False
+       if len(value) > 0:
+           return value
+       return True
+
+   def get_by_type(self):
+       if self.locator_type == "id":
+           return By.ID
+       elif self.locator_type == "name":
+           return By.NAME
+       elif self.locator_type == "xpath":
+           return By.XPATH
+       elif self.locator_type == "css":
+           return By.CSS_SELECTOR
+       elif self.locator_type == "class":
+           return By.CLASS_NAME
+       elif self.locator_type == "link":
+           return By.LINK_TEXT
+       else:
+           print("locator type " + self.locator_type + "nut correct")
+       return False
+
+
+   def scroll_to_element(self):
+       self.driver.execute_script(
+           "window.scrollTo(0, document.body.scrollHeight):",
+           self.find_element()
+       )
 
 
 

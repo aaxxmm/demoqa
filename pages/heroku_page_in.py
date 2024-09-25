@@ -8,3 +8,4 @@ class HerokuAppAdd(BasePage):
         super().__init__(driver, self.base_url)
         self.add_element_btn = WebElement(driver, '#content > div > button')
         self.del_btn_all = WebElement(driver, "//*[@id='elements']/button", 'xpath')
+        self.add_element_btn = WebElement(driver, '#content > div > button')

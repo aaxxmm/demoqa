@@ -4,28 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93622fc-46d6-4f69-b37e-c07cf4ac160e" name="Changes" comment="seven">
-      <change afterPath="$PROJECT_DIR$/pages/heroku_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/heroku_page_in.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/rthn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_koup/test_btn_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_login_form_validate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_text_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demoqa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c93622fc-46d6-4f69-b37e-c07cf4ac160e" name="Changes" comment="eght">
+      <change afterPath="$PROJECT_DIR$/pages/alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/browser_tab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/links.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/web_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ tests_hw/test_check_alert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ tests_hw/test_check_modal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ tests_hw/test_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_alert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_browser_tab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_webtables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_window_tab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/web_tables2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/components.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/accordion.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accordion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/demoqa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/elements_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elements_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/form_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/heroku_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/heroku_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/heroku_page_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/heroku_page_in.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/modal_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ tests_hw/test_check_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ tests_hw/test_check_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ tests_hw/test_page_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ tests_hw/test_page_dialogs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ tests_hw/test_visible.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ tests_hw/test_visible.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_form_validate.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ tests_hw/test_login_form_validate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_seo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_seo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_text_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ tests_hw/test_text_box.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,15 +92,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/HONOR/PycharmProjects/demoqa/tests/ tests_hw/test_check_text.py",
+    "last_opened_file_path": "C:/Users/HONOR/PycharmProjects/demoqa/tests",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HONOR\PycharmProjects\demoqa\tests" />
+      <recent name="C:\Users\HONOR\PycharmProjects\demoqa\pages" />
       <recent name="C:\Users\HONOR\PycharmProjects\demoqa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HONOR\PycharmProjects\demoqa\tests\ tests_hw" />
       <recent name="C:\Users\HONOR\PycharmProjects\demoqa\tests" />
     </key>
   </component>
@@ -310,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726516492877</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="eght">
+      <option name="closed" value="true" />
+      <created>1727019859258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727019859258</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,6 +335,7 @@
     <MESSAGE value="tree" />
     <MESSAGE value="five" />
     <MESSAGE value="seven" />
-    <option name="LAST_COMMIT_MESSAGE" value="seven" />
+    <MESSAGE value="eght" />
+    <option name="LAST_COMMIT_MESSAGE" value="eght" />
   </component>
 </project>

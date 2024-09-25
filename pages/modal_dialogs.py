@@ -8,4 +8,7 @@ class ModalDialogs(BasePage): #наследуем от BasePage
 
         self.btns_all = WebElement(driver, ' div:nth-child(3) > div > ul > li')
         self.icon_btn = WebElement(driver, '#app > header > a')
-
+        self.small_modal = WebElement(driver, '#showSmallModal')
+        self.large_modal = WebElement(driver, '#showLargeModal')
+        self.close_small_modal = WebElement(driver, '#closeSmallModal')
+        self.close_large_modal = WebElement(driver, '#closeLargeModal')

@@ -17,7 +17,12 @@ class FormPage(BasePage): #наследуем от BasePage
 
         self.hobbies = WebElement(driver, '#hobbies-checkbox-1')  # модальное окно
         self.current_address = WebElement(driver, '#currentAddress')  #
-
+        self.hobbies_check = WebElement(driver, '#hobbies-checkbox-2')
+        self.btn_current_address = WebElement(driver,'#currentAddress')
+        self.btn_state = WebElement(driver, '#state')
+        self.inp_state = WebElement(driver, '#react-select-3-input')
+        self.btn_city = WebElement(driver, '#stateCity-wrapper > div:nth-child(3)')
+        self.inp_city = WebElement(driver,"//*[contains(text(),'Delhi')]", 'xpath')
         self.btn_state = WebElement(driver, '#state')
         self.inp_state = WebElement(driver, '#react-select-3-input')
 

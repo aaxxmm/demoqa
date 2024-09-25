@@ -4,7 +4,7 @@ class BasePage:
    def __init__(self, driver, base_url): #после self принимающиеся аргументы
        self.driver = driver
        self.base_url = base_url # 'https://demoqa.com/'
-
+       self.viewport = WebElement(driver, 'head > meta')
    def visit(self):  #метод visit возвращает переход на страницу get
        return self.driver.get(self.base_url)
    #
